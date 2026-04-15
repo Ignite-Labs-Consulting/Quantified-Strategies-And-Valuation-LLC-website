@@ -1,5 +1,19 @@
-import ComingSoon from './components/ComingSoon'
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+import Services from './components/Services'
+import About from './components/About'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default function App() {
-  return <ComingSoon />
+  return (
+    <>
+      <Nav />
+      <Hero />
+      <Services />
+      <About />
+      <Contact />
+      <Footer />
+    </>
+  )
 }

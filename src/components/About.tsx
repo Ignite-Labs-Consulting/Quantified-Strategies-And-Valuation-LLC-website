@@ -5,18 +5,18 @@ export default function About() {
     <section className={styles.section} id="about">
       <div className={styles.inner}>
         <div className={styles.content}>
-          <span className={styles.eyebrow}>About the Fund</span>
-          <h2 className={styles.title}>A New Kind of Venture Fund</h2>
+          <span className={styles.eyebrow}>About Us</span>
+          <h2 className={styles.title}>Advisory Built on Analytical Rigor</h2>
           <p className={styles.body}>
-            Quantified Strategies and Valuation LLC was founded with a clear mission: bring
-            analytical discipline to early-stage venture investing. We believe that combining
-            quantitative rigor with hands-on founder support creates a differentiated model
-            for generating superior returns.
+            Quantified Strategy & Valuation LLC was founded with a clear mission: help
+            founders and business owners gain the financial clarity they need to grow,
+            raise capital, or execute a successful exit. We combine quantitative discipline
+            with real-world advisory experience to deliver work that actually moves the needle.
           </p>
           <p className={styles.body}>
-            We are currently in the process of launching our first fund and are eager to
-            connect with founders, limited partners, and fellow investors who share our vision
-            for a more disciplined approach to venture capital.
+            Whether you're preparing for your first investor conversation or mapping out a
+            long-term exit, we translate the complexity of your business into financial
+            models and strategies that tell a compelling, defensible story.
           </p>
           <div className={styles.utBadge}>
             <div className={styles.utBadgeInner}>
@@ -30,23 +30,23 @@ export default function About() {
         </div>
         <div className={styles.statsCol}>
           <div className={styles.stat}>
-            <div className={styles.statNum}>Seed</div>
-            <div className={styles.statLabel}>Target Stage</div>
+            <div className={styles.statNum}>Financial</div>
+            <div className={styles.statLabel}>Modeling & Projections</div>
           </div>
           <div className={styles.statDivider} />
           <div className={styles.stat}>
-            <div className={styles.statNum}>Pre-Seed</div>
-            <div className={styles.statLabel}>Also Considered</div>
+            <div className={styles.statNum}>Valuation</div>
+            <div className={styles.statLabel}>DCF · Comps · Transactions</div>
           </div>
           <div className={styles.statDivider} />
           <div className={styles.stat}>
-            <div className={styles.statNum}>Data-Driven</div>
-            <div className={styles.statLabel}>Investment Philosophy</div>
+            <div className={styles.statNum}>Growth</div>
+            <div className={styles.statLabel}>& Exit Strategy</div>
           </div>
           <div className={styles.statDivider} />
           <div className={styles.stat}>
-            <div className={styles.statNum}>Fund I</div>
-            <div className={styles.statLabel}>Coming Soon</div>
+            <div className={styles.statNum}>Investor</div>
+            <div className={styles.statLabel}>Readiness & Preparation</div>
           </div>
         </div>
       </div>

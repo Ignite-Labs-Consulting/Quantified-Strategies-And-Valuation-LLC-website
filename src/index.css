@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 :root {
-  --ut-orange: #BF5700;
-  --ut-orange-dark: #9e4800;
+  --navy:        #0C2340;
+  --navy-mid:    #1B3A5C;
+  --navy-light:  #2A5080;
+  --gold:        #BF5700;
+  --gold-dark:   #9e4800;
+  --surface:     #F5F4F1;
+  --surface-alt: #EDECEA;
+  --text-primary:   #0C2340;
+  --text-secondary: #3D5472;
+  --text-muted:     #6B7E8F;
+  --border:         #D6D8DC;
+  --border-light:   #E8EAED;
+  --white:          #FFFFFF;
+
+  /* legacy aliases used by existing components */
+  --ut-orange:       var(--gold);
+  --ut-orange-dark:  var(--gold-dark);
   --ut-orange-light: #d4631a;
-  --ut-cream: #f8f4f0;
-  --text-primary: #1a1a1a;
-  --text-secondary: #4a4a4a;
-  --text-muted: #767676;
-  --border: #e5e0db;
-  --white: #ffffff;
+  --ut-cream:        var(--surface);
 }
 
 *, *::before, *::after {
@@ -26,6 +38,11 @@ body {
   background: var(--white);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
 }
 
 a {

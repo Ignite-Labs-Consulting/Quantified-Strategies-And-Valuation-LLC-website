@@ -4,16 +4,15 @@
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
+  background: var(--navy);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
 .inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
-  height: 68px;
+  padding: 0 2.5rem;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,41 +28,61 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: var(--ut-orange);
+  width: 34px;
+  height: 34px;
+  background: var(--gold);
   color: white;
-  font-weight: 800;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
   flex-shrink: 0;
 }
 
 .logoText {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  letter-spacing: -0.01em;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 0.01em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.65);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.15s;
+}
+
+.link:hover {
+  color: white;
 }
 
 .cta {
-  background: var(--ut-orange);
-  color: white;
-  padding: 0.5rem 1.25rem;
-  border-radius: 6px;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  transition: background 0.2s;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--navy);
+  background: var(--gold);
+  padding: 0.5rem 1.25rem;
+  transition: background 0.15s;
   white-space: nowrap;
 }
 
 .cta:hover {
-  background: var(--ut-orange-dark);
+  background: var(--gold-dark);
 }
 
-@media (max-width: 600px) {
-  .logoText {
-    display: none;
-  }
+@media (max-width: 640px) {
+  .logoText { display: none; }
+  .link { display: none; }
+  .links { gap: 0; }
 }

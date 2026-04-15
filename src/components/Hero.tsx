@@ -4,21 +4,22 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.inner}>
-        <div className={styles.badge}>Venture Capital · Early Stage</div>
+        <p className={styles.eyebrow}>Finance & Strategy Advisory</p>
         <h1 className={styles.headline}>
-          Where Data Meets<br />
-          <span className={styles.accent}>Investment Conviction</span>
+          Finance & Strategy Advisory<br />
+          for Startups and Business Owners
         </h1>
+        <div className={styles.rule} />
         <p className={styles.sub}>
-          Quantified Strategies and Valuation LLC is a data-driven venture capital fund
-          backing exceptional founders building the next generation of transformative companies.
+          We help founders and operators translate their business into clear financial models,
+          valuation insights, and actionable growth or exit strategies.
         </p>
         <div className={styles.actions}>
-          <a href="#thesis" className={styles.primaryBtn}>Our Thesis</a>
+          <a href="#services" className={styles.primaryBtn}>Our Services</a>
           <a href="#contact" className={styles.secondaryBtn}>Connect With Us</a>
         </div>
       </div>
-      <div className={styles.gradientBar} />
+      <div className={styles.accentBar} />
     </section>
   )
 }

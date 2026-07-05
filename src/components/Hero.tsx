@@ -3,16 +3,17 @@ import styles from './Hero.module.css'
 export default function Hero() {
   return (
     <section className={styles.hero}>
+      <div className={styles.photo} aria-hidden="true" />
       <div className={styles.inner}>
-        <p className={styles.eyebrow}>Finance & Strategy Advisory</p>
+        <p className={styles.eyebrow}>Finance & Transaction Advisory</p>
         <h1 className={styles.headline}>
-          Finance & Strategy Advisory<br />
-          for Startups and Business Owners
+          Transaction Advisory<br />
+          for Startups and Growing Businesses
         </h1>
         <div className={styles.rule} />
         <p className={styles.sub}>
-          We help founders and operators translate their business into clear financial models,
-          valuation insights, and actionable growth or exit strategies.
+          We help founders and operators evaluate deals, understand business value, and
+          prepare for growth, acquisitions, capital raises, or exits.
         </p>
         <div className={styles.actions}>
           <a href="#services" className={styles.primaryBtn}>Our Services</a>

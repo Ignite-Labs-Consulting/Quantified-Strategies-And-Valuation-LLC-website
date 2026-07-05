@@ -1,26 +1,24 @@
 import styles from './Services.module.css'
 
 const left = {
-  eyebrow: 'Section 01',
-  title: 'Startup Financial Strategy & Investor Readiness',
-  desc: 'We translate your business fundamentals into the financial clarity investors demand — from day one through your raise.',
+  title: 'Business Growth & Capital Readiness',
   items: [
-    'Financial modeling & multi-scenario projections',
-    'Investor-ready pitch deck financials',
-    'KPI framework design & unit economics',
-    'Capital raise preparation & deal structuring',
-    'Runway analysis & budget planning',
+    'Quarterly KPI tracking toward your next business goal',
+    'Support across startup & growth-stage business needs',
+    'Capital raise preparation',
+    'Financial modeling & scenario analysis',
+    'Budgeting, runway & cash planning',
+    'Investor-ready financial materials',
   ],
 }
 
 const right = {
-  eyebrow: 'Section 02',
-  title: 'Valuation & Exit Strategy Advisory',
-  desc: 'We provide rigorous, data-backed valuation work and strategic roadmaps to help you negotiate from a position of strength.',
+  title: 'Transaction, Exit & Acquisition Advisory',
   items: [
-    'Business valuation (DCF, comps, precedent transactions)',
-    'M&A advisory preparation',
-    'Exit scenario modeling & timing analysis',
+    'Business valuation: DCF, comps, & precedent transactions',
+    'Buy-side & sell-side transaction support',
+    'Acquisition strategy & target evaluation',
+    'Exit planning & scenario analysis',
     'Deal structure & term sheet guidance',
     'Growth strategy & value creation planning',
   ],
@@ -32,19 +30,17 @@ export default function Services() {
       <div className={styles.inner}>
         <div className={styles.header}>
           <span className={styles.eyebrow}>What We Do</span>
-          <h2 className={styles.title}>Advisory Built Around Your Business</h2>
           <p className={styles.desc}>
-            Rigorous financial analysis and clear strategic guidance — delivered by advisors
-            who understand the language of founders and investors alike.
+            Built for founders and owners who need clear financial guidance, cost-effective
+            advisory support, and CFO-style planning before they are ready for a traditional
+            investment bank or consulting firm.
           </p>
         </div>
 
         <div className={styles.grid}>
           {[left, right].map((service) => (
             <div key={service.title} className={styles.card}>
-              <span className={styles.cardNum}>{service.eyebrow}</span>
               <h3 className={styles.cardTitle}>{service.title}</h3>
-              <p className={styles.cardDesc}>{service.desc}</p>
               <ul className={styles.list}>
                 {service.items.map((item) => (
                   <li key={item} className={styles.listItem}>
@@ -53,12 +49,15 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
-              <a href="#contact" className={styles.cardLink}>
-                Learn More <span aria-hidden="true">→</span>
-              </a>
             </div>
           ))}
         </div>
+
+        <p className={styles.note}>
+          For businesses without complete financial statements, our accounting support can
+          help organize financial records and prepare usable financial numbers for valuation,
+          capital readiness, or transaction planning.
+        </p>
       </div>
     </section>
   )

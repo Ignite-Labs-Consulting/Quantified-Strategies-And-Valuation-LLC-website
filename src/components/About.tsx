@@ -6,47 +6,31 @@ export default function About() {
       <div className={styles.inner}>
         <div className={styles.content}>
           <span className={styles.eyebrow}>About Us</span>
-          <h2 className={styles.title}>Advisory Built on Analytical Rigor</h2>
+          <h2 className={styles.title}>About Us</h2>
           <p className={styles.body}>
-            Quantified Strategy & Valuation LLC was founded with a clear mission: help
-            founders and business owners gain the financial clarity they need to grow,
-            raise capital, or execute a successful exit. We combine quantitative discipline
-            with real-world advisory experience to deliver work that actually moves the needle.
+            Quantified Strategy & Valuation LLC is a small advisory firm founded by UT
+            McCombs students. We help startups and growing businesses with valuation,
+            financial planning, capital readiness, and transaction support, delivering
+            high-quality work at an accessible cost.
           </p>
           <p className={styles.body}>
-            Whether you're preparing for your first investor conversation or mapping out a
-            long-term exit, we translate the complexity of your business into financial
-            models and strategies that tell a compelling, defensible story.
+            Our team is made up of passionate business students with diverse backgrounds in
+            finance, accounting, and marketing. We combine our skills to provide practical,
+            thoughtful advisory services, focusing on clear analysis, useful financial
+            models, and straightforward guidance for founders and business owners.
           </p>
-          <div className={styles.utBadge}>
-            <div className={styles.utBadgeInner}>
-              <span className={styles.utIcon}>🤘</span>
-              <div>
-                <div className={styles.utLabel}>UT Austin Student Founded</div>
-                <div className={styles.utSub}>The University of Texas at Austin</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.statsCol}>
-          <div className={styles.stat}>
-            <div className={styles.statNum}>Financial</div>
-            <div className={styles.statLabel}>Modeling & Projections</div>
-          </div>
-          <div className={styles.statDivider} />
-          <div className={styles.stat}>
-            <div className={styles.statNum}>Valuation</div>
-            <div className={styles.statLabel}>DCF · Comps · Transactions</div>
-          </div>
-          <div className={styles.statDivider} />
-          <div className={styles.stat}>
-            <div className={styles.statNum}>Growth</div>
-            <div className={styles.statLabel}>& Exit Strategy</div>
-          </div>
-          <div className={styles.statDivider} />
-          <div className={styles.stat}>
-            <div className={styles.statNum}>Investor</div>
-            <div className={styles.statLabel}>Readiness & Preparation</div>
+
+          <div className={styles.getInTouch} id="contact">
+            <span className={styles.eyebrow}>Get In Touch</span>
+            <h2 className={styles.title}>Have a Project in Mind?</h2>
+            <p className={styles.desc}>
+              Whether you are preparing for growth, raising capital, planning an exit, or just
+              need clearer financial numbers, we would be happy to learn more about your business.
+            </p>
+            <a href="mailto:business@qsvadvisory.com" className={styles.emailLink}>
+              <span className={styles.emailIcon} aria-hidden="true">✉</span>
+              business@qsvadvisory.com
+            </a>
           </div>
         </div>
       </div>

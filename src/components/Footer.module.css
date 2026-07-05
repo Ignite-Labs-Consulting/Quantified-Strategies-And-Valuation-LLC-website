@@ -17,30 +17,23 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 46px;
+  height: 46px;
   background: var(--gold);
   color: white;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 0.06em;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 .brandName {
   font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: white;
-  margin-bottom: 0.4rem;
   line-height: 1.4;
-}
-
-.brandSub {
-  font-family: 'Inter', sans-serif;
-  font-size: 0.75rem;
-  color: rgba(255,255,255,0.4);
 }
 
 .col {
@@ -55,8 +48,20 @@
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.4);
+  color: var(--gold);
   margin-bottom: 0.5rem;
+}
+
+.contactLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.contactIcon {
+  color: var(--gold);
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
 .colLink {

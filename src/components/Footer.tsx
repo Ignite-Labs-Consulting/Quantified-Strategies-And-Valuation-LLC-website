@@ -7,22 +7,22 @@ export default function Footer() {
         <div className={styles.brand}>
           <div className={styles.logoMark}>QSV</div>
           <div className={styles.brandName}>Quantified Strategy & Valuation LLC</div>
-          <div className={styles.brandSub}>A UT Austin Student Founded Advisory Firm</div>
         </div>
 
         <div className={styles.col}>
           <div className={styles.colLabel}>Services</div>
-          <a href="#services" className={styles.colLink}>Startup Financial Strategy</a>
-          <a href="#services" className={styles.colLink}>Investor Readiness</a>
-          <a href="#services" className={styles.colLink}>Valuation Advisory</a>
-          <a href="#services" className={styles.colLink}>Exit Strategy</a>
+          <a href="#services" className={styles.colLink}>Business Growth & Capital Readiness</a>
+          <a href="#services" className={styles.colLink}>Transaction, Exit & Acquisition Advisory</a>
+          <a href="#services" className={styles.colLink}>Valuation Support</a>
+          <a href="#services" className={styles.colLink}>Financial Planning</a>
         </div>
 
         <div className={styles.col}>
           <div className={styles.colLabel}>Contact</div>
-          <a href="mailto:founders@qsvllc.com" className={styles.colLink}>founders@qsvllc.com</a>
-          <a href="mailto:advisory@qsvllc.com" className={styles.colLink}>advisory@qsvllc.com</a>
-          <a href="mailto:hello@qsvllc.com" className={styles.colLink}>hello@qsvllc.com</a>
+          <a href="mailto:business@qsvadvisory.com" className={`${styles.colLink} ${styles.contactLink}`}>
+            <span className={styles.contactIcon} aria-hidden="true">✉</span>
+            business@qsvadvisory.com
+          </a>
         </div>
       </div>
 

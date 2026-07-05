@@ -2,7 +2,6 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import About from './components/About'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -12,7 +11,6 @@ export default function App() {
       <Hero />
       <Services />
       <About />
-      <Contact />
       <Footer />
     </>
   )
